@@ -1,0 +1,42 @@
+{
+  "name": "fox-template",
+  "description": "Assemble mobile apps easily with components.",
+  "version": "0.1.0",
+  "keywords": [
+    "css",
+    "fonts",
+    "ios",
+    "android",
+    "mobile",
+    "prototype",
+    "components"
+  ],
+  "homepage": "https://github.com/foxui",
+  "author": "fex-team",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/foxui/fox-template.git"
+  },
+  "bugs": {
+    "url": "https://github.com/foxui/fox-template/issues"
+  },
+  "license": "BSD",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-copy": "~0.5.0",
+    "grunt-contrib-cssmin": "~0.9.0",
+    "grunt-contrib-sass": "~0.7.3",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-contrib-qunit": "~0.4.0",
+    "load-grunt-tasks": "~0.4.0",
+    "time-grunt": "~0.3.1",
+    "qunitjs": "~1.14.0"
+  },
+  "engines": {
+    "node": "~0.10.1"
+  }
+}
