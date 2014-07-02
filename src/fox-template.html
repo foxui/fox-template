@@ -1,10 +1,15 @@
-<fox-element name="fox-template">
+<fox-element name='fox-template'>
 
 	<script>
+        
 		fox('fox-template', {
 			lifecycle : {
 				created : function() {
-					rivets.bind(this,this);
+                    var self = this;
+                    setTimeout(function(){
+                    	rivets.bind(self,self);	
+                    },0);
+					
 				}
 			}
 		});
