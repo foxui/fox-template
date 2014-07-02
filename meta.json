@@ -1,0 +1,11 @@
+{
+    "dependencies": {
+        "import": [
+            "fox-template/dist/fox-template.html"
+        ]
+    },
+    "name":"fox-template",
+    "type":"component",
+    "attributes":[],
+    "events":[]
+}
