@@ -1,19 +1,30 @@
 <fox-element name='fox-template'>
 
-	<script>
-        
-		fox('fox-template', {
-			lifecycle : {
-				created : function() {
+    <script>
+
+        fox('fox-template', {
+            lifecycle : {
+                created : function() {
                     var self = this;
                     setTimeout(function(){
-                    	rivets.bind(self,self);	
+                        rivets.bind(self,self);
                     },0);
-					
-				}
-			}
-		});
 
-	</script>
+                }
+            },
+
+            methods: {
+                datasourceChanged: function() {
+                    var me = this;
+
+                    // left 200 ms render time
+                    setTimeout(function() {
+                        me.classList.add('fox-template-renderred');
+                    }, 200);
+                }
+            }
+        });
+
+    </script>
 
 </fox-element>
